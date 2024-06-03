@@ -54,3 +54,10 @@ if (num1 > num2) {
     
 //__________________________________________________________________________________________________
 
+//Q5
+// Read two numbers and display the sum 
+num1 = parseInt(prompt(`Please enter first number to display the sum`));
+num2 = parseInt(prompt(`Please enter secound number to display the sum`));
+let sum = num1 + num2;;
+alert(`The sum is ${sum}`);
+//__________________________________________________________________________________________________
