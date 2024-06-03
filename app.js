@@ -36,4 +36,21 @@ if (num1 > num2) {
 //_________________________________________________________________________________________________
 
 
+//Q4
+// Read two numbers and display the largest
+num1 = parseInt(prompt(`Please enter first number to display the largest`));
+num2 = parseInt(prompt(`Please enter secound number to display the largest`));
+
+//condition statment => largest num
+if (num1 > num2) {
+    largest = num1;
+    alert(`The Largest number is ${largest} `);
+} else if (num2 > num1) {
+    largest = num2;
+    alert(`The Largest number is ${largest} `);
+} else if (num1 == num2) { 
+    alert(`The two numbers are equal`)
+}
+    
+//__________________________________________________________________________________________________
 
