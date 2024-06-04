@@ -1,3 +1,17 @@
+//Q1
+let x = 1;
+console.log(-5*3);
+console.log("Javascript" + 50);
+console.log(17 % 5);
+console.log(5 % 7);
+console.log(5 / 10);
+console.log(4 === "4");
+console.log(4 != 5);
+console.log(7 <= 8);
+console.log("Hello" + 5);
+console.log(Math.ceil(x) - Math.floor(x) );
+console.log(Math.pow(x,2));
+
 
 //Q2
 // reading number using propmt
@@ -61,3 +75,39 @@ num2 = parseInt(prompt(`Please enter secound number to display the sum`));
 let sum = num1 + num2;;
 alert(`The sum is ${sum}`);
 //__________________________________________________________________________________________________
+
+
+//Q6 
+num1 = parseInt(prompt(`Please enter a number `));
+switch (num1){
+    case 1:
+        alert(`ONE`);
+        break;
+    case 2:
+        alert(`TWO`);
+        break;
+    case 3:
+        alert(`THREE`);
+        break;
+    case 4:
+        alert(`FOUR`);
+        break;
+    case 5:
+        alert(`FIVE`);
+        break;
+    case 6:
+        alert(`SIX`);
+        break;
+    case 7:
+        alert(`SEVEN`);
+        break;
+    case 8:
+        alert(`EIGHT`);
+        break;
+    case 9:
+        alert(`NINE`);
+        break;
+    default:
+        alert(`PLEASE TRY AGAIN`);
+}
+
